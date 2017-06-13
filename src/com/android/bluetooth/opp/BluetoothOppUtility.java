@@ -392,7 +392,7 @@ public class BluetoothOppUtility {
         }
     }
 
-	/**
+    /**
      * Checks if the URI is in Environment.getExternalStorageDirectory() as it
      * is the only directory that is possibly readable by both the sender and
      * the Bluetooth process.
@@ -427,7 +427,7 @@ public class BluetoothOppUtility {
             return false;
         }
     }
-	
+
     // Custom class to remove special characters from Intent.toString()
     static class CustomIntent extends Intent {
 
